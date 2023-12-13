@@ -1,0 +1,1264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Cage Trucking</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="icon" href="CAGE TRUCKINGS LOGO.png" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- Custom styles -->
+   
+    
+</head>
+
+<style>
+  body {font-family: Arial, Helvetica, sans-serif;}
+
+  
+  #myImg, #myImg1, #myImg2, #myImg3, #myImg4{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #myImg:hover {opacity: 0.5;}
+  #myImg1:hover {opacity: 0.5;}
+  #myImg2:hover {opacity: 0.5;}
+  #myImg3:hover {opacity: 0.5;}
+  #myImg4:hover {opacity: 0.5;}
+
+  @media (max-width: 800px){
+    .container9{
+      flex-direction: column;
+      padding: 0;
+    }
+
+    #myImg, #myImg1, #myImg2, #myImg3, #myImg4{
+      width: 320px;
+      height: fit-content;
+    }
+
+    .p1{
+      width: max-content;
+    }
+  }
+
+  
+  
+  /* content-div */
+</style>
+
+
+
+<body class="bg-super-light">
+    <!--Main Navigation-->
+<header>
+  <!-- Jumbotron -->
+  <div class="p-3 text-center bg-white border-bottom">
+    <div class="container">
+      <div class="row gy-3">
+        <!-- Left elements -->
+        <div class="col-lg-2 col-sm-4 col-4">
+          <a href="#" target="_self" class="float-start">
+            <!-- <h5 class="text-info" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">FOOD TRAILER</h5> -->
+            <img src="CAGE TRUCKINGS LOGO.png" height="95" />
+          </a>
+        </div>
+        <!-- Left elements -->
+
+        <!-- Center elements -->
+        <div class="order-lg-last col-lg-5 col-sm-8 col-8">
+          <div class="d-flex float-end">
+            <a href="signin.html" class="me-1 border rounded py-1 px-3 nav-link d-flex align-items-center" > <i class="fas fa-user-alt m-1 me-md-2"></i><p class="d-none d-md-block mb-0">Sign in</p> </a>
+            <a href="wishlist.html" class="me-1 border rounded py-1 px-3 nav-link d-flex align-items-center" > <i class="fas fa-heart m-1 me-md-2"></i><p class="d-none d-md-block mb-0">Wishlist</p> </a>
+            <a href="cart.html" class="border rounded py-1 px-3 nav-link d-flex align-items-center" > <i class="fas fa-shopping-cart m-1 me-md-2"></i><p class="d-none d-md-block mb-0">My cart</p> </a>
+          </div>
+        </div>
+        <!-- Center elements -->
+
+        <!-- Right elements -->
+        <div class="col-lg-5 col-md-12 col-12">
+          <div class="input-group float-center">
+            <div class="form-outline">
+              <input type="search" id="form1" class="form-control" />
+              <label class="form-label" for="form1">Search</label>
+            </div>
+            <button type="button" class="btn btn-primary shadow-0">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+        <!-- Right elements -->
+      </div>
+    </div>
+  </div>
+  <!-- Jumbotron -->
+
+  <!-- Heading -->
+  <div class="bg-dark mb-4">
+    <div class="container py-4">
+      <!-- <h3 class="text-white mt-2">Our Products</h3> -->
+      <h3 class="text-warning mt-2">Cage Trucking</h3>
+      <!-- Breadcrumb -->
+      <nav class="d-flex mb-2">
+        <h6 class="mb-0">
+          <a href="" class="text-white" style="margin-right: 7px;">Home</a>
+          <!-- <span class="text-white mx-2"> > </span> -->
+          <a href="template/About branding studio HTML Template Live Demo.html" class="text-white"  style="margin-right: 7px;">About</a>
+          <!-- <span class="text-white mx-2"> > </span> -->
+          <a href="contact.html" class="text-white"  style="margin-right: 7px;" >Contact</a>
+          <a href="service.html" class="text-white"  style="margin-right: 7px;" >Services</a>
+          
+        </h6>
+      </nav>
+      <!-- Breadcrumb -->
+    </div>
+  </div>
+  <!-- Heading -->
+</header>
+
+<!-- sidebar + content -->
+<section class="">
+  <div class="container">
+    <div class="row">
+      <!-- sidebar -->
+      <div class="col-lg-3">
+        <!-- Toggle button -->
+        <button
+                class="btn btn-outline-secondary mb-3 w-100 d-lg-none"
+                type="button"
+                data-mdb-toggle="collapse"
+                data-mdb-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+                >
+          <span>Show filter</span>
+        </button>
+        <!-- Collapsible wrapper -->
+        <div class="collapse card d-lg-block mb-5" id="navbarSupportedContent">
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                        class="accordion-button text-dark bg-info"
+                        type="button"
+                        data-mdb-toggle="collapse"
+                        data-mdb-target="#panelsStayOpen-collapseOne"
+                        aria-expanded="true"
+                        aria-controls="panelsStayOpen-collapseOne"
+                        >
+                  Related Article
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne">
+                <div class="accordion-body">
+                  <ul class="list-unstyled">
+                    <li><a href="#" class="text-dark">Electric fryer (14L+14L)</a></li>
+                    <li><a href="#" class="text-dark">Electricity Griddle</a></li>
+                    <li><a href="#" class="text-dark">Electric hot plate</a></li>
+                    <li><a href="#" class="text-dark">Electric Grill</a></li>
+                    <li><a href="#" class="text-dark">HOOD SYSTEM</a></li>
+                    <li><a href="#" class="text-dark">Workbench Refrigerator</a></li>
+                    <li><a href="#" class="text-dark">A/C*2</a></li>
+                    <li><a href="#" class="text-dark">Food lighting</a></li>
+                    <li><a href="#" class="text-dark">LED decorative lights</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                        class="accordion-button text-dark bg-info"
+                        type="button"
+                        data-mdb-toggle="collapse"
+                        data-mdb-target="#panelsStayOpen-collapseTwo"
+                        aria-expanded="true"
+                        aria-controls="panelsStayOpen-collapseTwo"
+                        >
+                  Other Brands Products
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo">
+                <div class="accordion-body">
+                  <div>
+                    <!-- Checked checkbox -->
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked1" checked />
+                      <label class="form-check-label" for="flexCheckChecked1">Mercedes</label>
+                      <span class="badge badge-secondary float-end">120</span>
+                    </div>
+                    <!-- Checked checkbox -->
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked2" checked />
+                      <label class="form-check-label" for="flexCheckChecked2">Toyota</label>
+                      <span class="badge badge-secondary float-end">15</span>
+                    </div>
+                    <!-- Checked checkbox -->
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked3" checked />
+                      <label class="form-check-label" for="flexCheckChecked3">Mitsubishi</label>
+                      <span class="badge badge-secondary float-end">35</span>
+                    </div>
+                    <!-- Checked checkbox -->
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked4" checked />
+                      <label class="form-check-label" for="flexCheckChecked4">Nissan</label>
+                      <span class="badge badge-secondary float-end">89</span>
+                    </div>
+                    <!-- Default checkbox -->
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                      <label class="form-check-label" for="flexCheckDefault">Honda</label>
+                      <span class="badge badge-secondary float-end">30</span>
+                    </div>
+                    <!-- Default checkbox -->
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                      <label class="form-check-label" for="flexCheckDefault">Suzuki</label>
+                      <span class="badge badge-secondary float-end">30</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                        class="accordion-button text-dark bg-info"
+                        type="button"
+                        data-mdb-toggle="collapse"
+                        data-mdb-target="#panelsStayOpen-collapseThree"
+                        aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseThree"
+                        >
+                  Price
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree">
+                <div class="accordion-body">
+                  <div class="range">
+                    <input type="range" class="form-range" id="customRange1" />
+                  </div>
+                  <div class="row mb-3">
+                    <div class="col-6">
+                      <p class="mb-0">
+                        Min
+                      </p>
+                      <div class="form-outline">
+                        <input type="number" id="typeNumber" class="form-control" />
+                        <label class="form-label" for="typeNumber">$1</label>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <p class="mb-0">
+                        Max
+                      </p>
+                      <div class="form-outline">
+                        <input type="number" id="typeNumber" class="form-control" />
+                        <label class="form-label" for="typeNumber">$50,000</label>
+                      </div>
+                    </div>
+                  </div>
+                  <button type="button" class="btn btn-white w-100 border border-secondary">apply</button>
+                </div>
+              </div>
+            </div>
+           
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                        class="accordion-button text-dark bg-info"
+                        type="button"
+                        data-mdb-toggle="collapse"
+                        data-mdb-target="#panelsStayOpen-collapseFive"
+                        aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseFive"
+                        >
+                  Ratings
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse show" aria-labelledby="headingThree">
+                <div class="accordion-body">
+                  <!-- Default checkbox -->
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked />
+                    <label class="form-check-label" for="flexCheckDefault">
+                      <i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-warning"></i>
+                    </label>
+                  </div>
+                  <!-- Default checkbox -->
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked />
+                    <label class="form-check-label" for="flexCheckDefault">
+                      <i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i>
+                      <i class="fas fa-star text-secondary"></i>
+                    </label>
+                  </div>
+                  <!-- Default checkbox -->
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked />
+                    <label class="form-check-label" for="flexCheckDefault">
+                      <i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-secondary"></i>
+                      <i class="fas fa-star text-secondary"></i>
+                    </label>
+                  </div>
+                  <!-- Default checkbox -->
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked />
+                    <label class="form-check-label" for="flexCheckDefault">
+                      <i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-secondary"></i><i class="fas fa-star text-secondary"></i>
+                      <i class="fas fa-star text-secondary"></i>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- sidebar -->
+      <!-- content -->
+      <div class="col-lg-9">
+        <header class="d-sm-flex align-items-center border-bottom mb-4 pb-3">
+          <strong class="d-block py-2">32 Items found </strong>
+          <div class="ms-auto">
+            <select class="form-select d-inline-block w-auto border pt-1">
+              <option value="0">Best match</option>
+              <option value="1">Recommended</option>
+              <option value="2">High rated</option>
+              <option value="3">Randomly</option>
+            </select>
+            <div class="btn-group shadow-0 border">
+              <a href="#" class="btn btn-light" title="List view">
+                <i class="fa fa-bars fa-lg"></i>
+              </a>
+              <a href="#" class="btn btn-light active" title="Grid view">
+                <i class="fa fa-th fa-lg"></i>
+              </a>
+            </div>
+          </div>
+        </header>
+
+        <!-- john -->
+
+        <div class="row justify-content-center mb-3">
+          <div class="col-md-12">
+            <div class="card shadow-0 border rounded-3">
+              <div class="card-body">
+                <div class="row g-0">
+                  <div class="col-xl-3 col-md-4 d-flex justify-content-center">
+                    <div class="bg-image hover-zoom ripple rounded ripple-surface me-md-3 mb-3 mb-md-0">
+                      <!-- <img src="image/IMG-20230717-WA0021.jpg" class="w-100" />
+                      <a href="#!">
+                        <div class="hover-overlay">
+                          <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                        </div>
+                      </a> -->
+
+                      <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <!-- Show a second modal and hide this one with the button below. -->
+                              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="image/IMG-20230717-WA0021.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="working image/IMG-20230818-WA0028.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="working image/IMG-20230818-WA0030.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                              <p class="text mb-4 mb-md-0">
+                                It is 23x8x7 full stainless inside (upgrade) with 2 ton ac, double fryer, 36" griddle, 2 burner, steam table, 
+                                prep table with refrigerator under it.
+                              </p>
+                            </div>
+                            <div class="modal-footer">
+                              <button class="btn btn-primary btn-lg" style="width: 900px;"><a href="signin.html" style="color: white;">BUY PRODUCT</a></button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!--  -->
+                      <a class="" data-bs-toggle="modal" href="#exampleModalToggle" role="button"><img src="image/IMG-20230717-WA0021.jpg" id="myImg" class="img-div" alt="" srcset="" height="200px" width="230px" style="border-radius: 10px; margin: 20px;"></a>
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-md-5 col-sm-7">
+                    <h5>Trailer</h5>
+                    <div class="d-flex flex-row">
+                      <div class="text-warning mb-1 me-2">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span class="ms-1">
+                          4.5
+                        </span>
+                      </div>
+                      <span class="text-muted">154 orders</span>
+                    </div>
+
+                    <p class="text mb-4 mb-md-0">
+                      It is 23x8x7 full stainless inside (upgrade) with 2 ton ac, double fryer, 36" griddle, 2 burner, steam table, 
+                      prep table with refrigerator under it.
+                    </p>
+                  </div>
+                  <div class="col-xl-3 col-md-3 col-sm-5">
+                    <div class="d-flex flex-row align-items-center mb-1">
+                      <h4 class="mb-1 me-1">$25,000</h4>
+                      <span class="text-danger"><s>$39,000</s></span>
+                    </div>
+                    <h6 class="text-success">Free shipping</h6>
+                    <div class="mt-4">
+                      <button class="btn btn-primary shadow-0" type="button"><a href="signin.html" style="color: white;">Buy this</a></button>
+                      <a href="wishlist.html" class="btn btn-light border px-2 pt-2 icon-hover"><i class="fas fa-heart fa-lg px-1"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- john -->
+
+<!-- john 2 -->
+<div class="row justify-content-center mb-3">
+  <div class="col-md-12">
+    <div class="card shadow-0 border rounded-3">
+      <div class="card-body">
+        <div class="row g-0">
+          <div class="col-xl-3 col-md-4 d-flex justify-content-center">
+            <div class="bg-image hover-zoom ripple rounded ripple-surface me-md-3 mb-3 mb-md-0">
+              <!-- <img src="image/IMG-20230717-WA0021.jpg" class="w-100" />
+              <a href="#!">
+                <div class="hover-overlay">
+                  <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                </div>
+              </a> -->
+
+              <div class="modal fade" id="exampleModalToggle1" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalToggleLabel">Trailer</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <!-- Show a second modal and hide this one with the button below. -->
+                      <div id="carouselExampleIndicators1" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="image/IMG-20230717-WA0022.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="working image/1of2.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="working image/1of3.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                      <p class="text mb-4 mb-md-0">
+                        It is 23x8x7 full stainless inside (upgrade) with 2 ton ac, double fryer, 36" griddle, 2 burner, steam table, 
+                        prep table with refrigerator under it.
+                      </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button class="btn btn-primary btn-lg" style="width: 900px;"><a href="signin.html" style="color: white;">BUY PRODUCT</a></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <a class="" data-bs-toggle="modal" href="#exampleModalToggle1" role="button"><img src="image/IMG-20230717-WA0022.jpg" id="myImg1" class="img-div" alt="" srcset="" height="200px" width="230px" style="border-radius: 10px; margin: 20px;"></a>
+            </div>
+          </div>
+          <div class="col-xl-6 col-md-5 col-sm-7">
+            <h5>Trailer</h5>
+            <div class="d-flex flex-row">
+              <div class="text-warning mb-1 me-2">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <span class="ms-1">
+                  4.5
+                </span>
+              </div>
+              <span class="text-muted">154 orders</span>
+            </div>
+
+            <p class="text mb-4 mb-md-0">
+              It is 23x8x7 full stainless inside (upgrade) with 2 ton ac, double fryer, 36" griddle, 2 burner, steam table, 
+              prep table with refrigerator under it.
+            </p>
+          </div>
+          <div class="col-xl-3 col-md-3 col-sm-5">
+            <div class="d-flex flex-row align-items-center mb-1">
+              <h4 class="mb-1 me-1">$25,000</h4>
+              <span class="text-danger"><s>$39,000</s></span>
+            </div>
+            <h6 class="text-success">Free shipping</h6>
+            <div class="mt-4">
+              <button class="btn btn-primary shadow-0" type="button"><a href="signin.html" style="color: white;">Buy this</a></button>
+              <a href="wishlist.html" class="btn btn-light border px-2 pt-2 icon-hover"><i class="fas fa-heart fa-lg px-1"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- john 2 -->
+
+        <!-- john 3 -->
+
+
+        <div class="row justify-content-center mb-3">
+          <div class="col-md-12">
+            <div class="card shadow-0 border rounded-3">
+              <div class="card-body">
+                <div class="row g-0">
+                  <div class="col-xl-3 col-md-4 d-flex justify-content-center">
+                    <div class="bg-image hover-zoom ripple rounded ripple-surface me-md-3 mb-3 mb-md-0">
+                      <!-- <img src="image/IMG-20230717-WA0021.jpg" class="w-100" />
+                      <a href="#!">
+                        <div class="hover-overlay">
+                          <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                        </div>
+                      </a> -->
+        
+                      <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalToggleLabel">Trailer</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <!-- Show a second modal and hide this one with the button below. -->
+                              <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="image/IMG-20230717-WA0023.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="working image/1of2.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="working image/1of3.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                              <p class="text mb-4 mb-md-0 ">
+                          <ul>
+                            <li>Braked AL-O axle.</li>
+                            <li>Overrun brake with automatic and parking</li>
+                            <li>V-shaped galvanized drawbar</li>
+                            <li>Internal dimension: 4800x2100x2600mm</li>
+                            <li>External dimensions: 6300x2100x2600mm</li>
+                          </ul>
+                                
+                             
+                            </p>
+                            </div>
+                            <div class="modal-footer">
+                              <button class="btn btn-primary btn-lg" style="width: 900px;"><a href="signin.html" style="color: white;">BUY PRODUCT</a></button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!--  -->
+                      <a class="" data-bs-toggle="modal" href="#exampleModalToggle2" role="button"><img src="image/IMG-20230717-WA0023.jpg" id="myImg1" class="img-div" alt="" srcset="" height="200px" width="230px" style="border-radius: 10px; margin: 20px;"></a>
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-md-5 col-sm-7">
+                    <h5>Trailer</h5>
+                    <div class="d-flex flex-row">
+                      <div class="text-warning mb-1 me-2">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span class="ms-1">
+                          4.5
+                        </span>
+                      </div>
+                      <span class="text-muted">154 orders</span>
+                    </div>
+        
+                    <p class="text mb-4 mb-md-0 ">
+                      <ul>
+                        <li>Braked AL-O axle</li>
+                        <li>Overrun brake with automatic and parking</li>
+                        <li>V-shaped galvanized drawbar</li>
+                        <li>Internal dimension: 4800x2100x2600mm</li>
+                        <li>External dimensions: 6300x2100x2600mm</li>
+                      </ul>
+                            
+                         
+                        </p>
+                  </div>
+                  <div class="col-xl-3 col-md-3 col-sm-5">
+                    <div class="d-flex flex-row align-items-center mb-1">
+                      <h4 class="mb-1 me-1">$25,000</h4>
+                      <span class="text-danger"><s>$39,000</s></span>
+                    </div>
+                    <h6 class="text-success">Free shipping</h6>
+                    <div class="mt-4">
+                      <button class="btn btn-primary shadow-0" type="button"><a href="signin.html" style="color: white;">Buy this</a></button>
+                      <a href="wishlist.html" class="btn btn-light border px-2 pt-2 icon-hover"><i class="fas fa-heart fa-lg px-1"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- john 3 -->
+
+
+        <!-- john 4 -->
+
+
+        <div class="row justify-content-center mb-3">
+          <div class="col-md-12">
+            <div class="card shadow-0 border rounded-3">
+              <div class="card-body">
+                <div class="row g-0">
+                  <div class="col-xl-3 col-md-4 d-flex justify-content-center">
+                    <div class="bg-image hover-zoom ripple rounded ripple-surface me-md-3 mb-3 mb-md-0">
+                      <!-- <img src="image/IMG-20230717-WA0021.jpg" class="w-100" />
+                      <a href="#!">
+                        <div class="hover-overlay">
+                          <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                        </div>
+                      </a> -->
+        
+                      <div class="modal fade" id="exampleModalToggle3" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalToggleLabel">Trailer</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <!-- Show a second modal and hide this one with the button below. -->
+                              <div id="carouselExampleIndicators3" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="working image/1of2.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="working image/1of1.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="working image/2of1.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                              <p class="text mb-4 mb-md-0">
+                                It is 23x8x7 full stainless inside (upgrade) with 2 ton ac, double fryer, 36" griddle, 2 burner, steam table, prep table with refrigerator under it.
+                              </p>
+                            </div>
+                            <div class="modal-footer">
+                              <button class="btn btn-primary btn-lg" style="width: 900px;"><a href="signin.html" style="color: white;">BUY PRODUCT</a></button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!--  -->
+                      <a class="" data-bs-toggle="modal" href="#exampleModalToggle3" role="button"><img src="working image/1of2.jpg" id="myImg1" class="img-div" alt="" srcset="" height="200px" width="230px" style="border-radius: 10px; margin: 20px;"></a>
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-md-5 col-sm-7">
+                    <h5>Trailer</h5>
+                    <div class="d-flex flex-row">
+                      <div class="text-warning mb-1 me-2">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span class="ms-1">
+                          4.5
+                        </span>
+                      </div>
+                      <span class="text-muted">154 orders</span>
+                    </div>
+        
+                    <p class="text mb-4 mb-md-0">
+                      It is 23x8x7 full stainless inside (upgrade) with 2 ton ac, double fryer, 36" griddle, 2 burner, steam table, prep table with refrigerator under it.
+                    </p>
+                            
+                         
+                        </p>
+                  </div>
+                  <div class="col-xl-3 col-md-3 col-sm-5">
+                    <div class="d-flex flex-row align-items-center mb-1">
+                      <h4 class="mb-1 me-1">$25,000</h4>
+                      <span class="text-danger"><s>$39,000</s></span>
+                    </div>
+                    <h6 class="text-success">Free shipping</h6>
+                    <div class="mt-4">
+                      <button class="btn btn-primary shadow-0" type="button"><a href="signin.html" style="color: white;">Buy this</a></button>
+                      <a href="wishlist.html" class="btn btn-light border px-2 pt-2 icon-hover"><i class="fas fa-heart fa-lg px-1"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- john 4 -->
+
+        
+        <!-- <div class="constructor" style="height: 500; width: fit-content; border-radius: 10px; outline-style: auto; outline-color: #f1f1f1; margin-bottom: 20px; padding: 20px; box-shadow: 4px 4px 4px rgba(0,0,0,0.2);">
+          <div class="container9" style="display: flex;">
+            <div class="img-div" style=" border-radius: 5px; margin-right: 20px;">
+              <img src="image/IMG-20230717-WA0021.jpg" height="200px" width="200px" id="myImg" alt='is 23x8x7 full stainless inside (upgrade) with 2 ton ac, double fryer, 36" griddle, 2 burner, steam table, 
+              prep table with refrigerator under it.' style="max-width:300px; border-radius: 5px;">
+              <!- The Modal --
+              <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+              </div>
+            </div>
+            <div class="content-div" style="margin-right: 0;">
+              <h5>Trailer</h5>
+              <div class="d-flex flex-row">
+                <div class="text-warning mb-1 me-2">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                  <span class="ms-1">
+                    4.5
+                  </span>
+                </div>
+                <span class="text-muted">154 orders</span>
+              </div>
+              <p class="text mb-4 mb-md-0">
+                It is 23x8x7 full stainless inside (upgrade) with 2 ton ac, double fryer, 36" griddle, 2 burner, steam table, 
+                prep table with refrigerator under it.
+              </p>
+
+            
+  
+            </div>
+
+            <div class="content2-div" style="display: flex; flex-direction: column;">
+              <div style="display: flex;">
+                <h4 style="margin-right: 5px;">$25,000</h4>
+                <span class="text-danger"><s>$39,000</s></span>
+              </div>
+              <h6 class="text-success">Free shipping</h6>
+              
+              <div class="mt-4">
+                <button class="btn btn-primary shadow-0" type="button"><a href="signin.html" style="color: white;">Buy this</a></button>
+                <a href="wishlist.html" class="btn btn-light border px-2 pt-2 icon-hover"><i class="fas fa-heart fa-lg px-1"></i></a>
+              </div>
+              
+
+              
+            </div>
+          </div>
+
+        
+          
+        </div>
+
+
+        <div class="constructor" style="height: 500; width: fit-content; border-radius: 10px; outline-style: auto; outline-color: #f1f1f1; margin-bottom: 20px; padding: 20px; box-shadow: 4px 4px 4px rgba(0,0,0,0.2);">
+          <div class="container9" style="display: flex;">
+            <div class="img-div" style=" border-radius: 5px; margin-right: 20px;">
+              <img src="image/IMG-20230717-WA0022.jpg" height="200px" width="200px" id="myImg1" alt="Snow" style="max-width:300px; border-radius: 5px;">
+              <!- The Modal --
+              <div id="myModal1" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content1" id="img02">
+                <div id="caption1"></div>
+              </div>
+            </div>
+            <div class="content-div" style="margin-right: 0;">
+              <h5>Trailer</h5>
+              <div class="d-flex flex-row">
+                <div class="text-warning mb-1 me-2">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                  <span class="ms-1">
+                    4.5
+                  </span>
+                </div>
+                <span class="text-muted">154 orders</span>
+              </div>
+              <p class="text mb-4 mb-md-0">
+                It is 23x8x7 full stainless inside (upgrade) with 2 ton ac, double fryer, 36" griddle, 2 burner, steam table, prep table with refrigerator under it. [...]
+              </p>
+
+            
+  
+            </div>
+
+            <div class="content2-div" style="display: flex; flex-direction: column;">
+              <div style="display: flex;">
+                <h4 style="margin-right: 5px;">$40,000</h4>
+                <span class="text-danger"><s>$50,000</s></span>
+              </div>
+              <h6 class="text-success">Free shipping</h6>
+              
+              <div class="mt-4">
+                <button class="btn btn-primary shadow-0" type="button"><a href="signin.html" style="color: white;">Buy this</a></button>
+                <a href="wishlist.html" class="btn btn-light border px-2 pt-2 icon-hover"><i class="fas fa-heart fa-lg px-1"></i></a>
+              </div>
+              
+
+              
+            </div>
+          </div>
+
+        
+          
+        </div>
+        
+
+        <div class="constructor" style="height: 500; width: auto; border-radius: 10px; outline-style: auto; outline-color: #f1f1f1; margin-bottom: 20px; padding: 20px; box-shadow: 4px 4px 4px rgba(0,0,0,0.2);">
+          <div class="container9" style="display: flex;">
+            <div class="img-div" style=" border-radius: 5px; margin-right: 20px;">
+              <img src="image/IMG-20230717-WA0023.jpg" height="200px" width="200px" id="myImg2" alt="Snow" style="max-width:300px; border-radius: 5px;">
+              !-- The Modal --
+              <div id="myModal2" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img03">
+                <div id="caption2"></div>
+              </div>
+            </div>
+            <div class="content-div" style="margin-right: 220px;">
+              <h5>Trailer</h5>
+              <div class="d-flex flex-row">
+                <div class="text-warning mb-1 me-2">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                  <span class="ms-1">
+                    4.5
+                  </span>
+                </div>
+                <span class="text-muted">154 orders</span>
+              </div>
+              <p class="text mb-4 mb-md-0">
+                <ul>
+                  <li>Braked AL-O axle</li>
+                  <li>Overrun brake with automatic and parking</li>
+                  <li>V-shaped galvanized drawbar</li>
+                  <li>Internal dimension: 4800x2100x2600mm</li>
+                  <li>External dimensions: 6300x2100x2600mm</li>
+                </ul>
+                
+              </p>
+
+            
+  
+            </div>
+
+            <div class="content2-div" style="display: flex; flex-direction: column;">
+              <div style="display: flex;">
+                <h4 style="margin-right: 5px;">$40,000</h4>
+                <span class="text-danger"><s>$50,000</s></span>
+              </div>
+              <h6 class="text-success">Free shipping</h6>
+              
+              <div class="mt-4">
+                <button class="btn btn-primary shadow-0" type="button"><a href="signin.html" style="color: white;">Buy this</a></button>
+                <a href="wishlist.html" class="btn btn-light border px-2 pt-2 icon-hover"><i class="fas fa-heart fa-lg px-1"></i></a>
+              </div>
+              
+
+              
+            </div>
+          </div>
+
+        
+          
+        </div>
+
+
+        <div class="constructor" style="height: 500; width: fit-content; border-radius: 10px; outline-style: auto; outline-color: #f1f1f1; margin-bottom: 20px; padding: 20px; box-shadow: 4px 4px 4px rgba(0,0,0,0.2);">
+          <div class="container9" style="display: flex;">
+            <div class="img-div" style=" border-radius: 5px; margin-right: 20px;">
+              <img src="image/IMG-20230717-WA0021.jpg" height="200px" width="200px" id="myImg3" alt="Snow" style="max-width:300px; border-radius: 5px;">
+              <!- The Modal --
+              <div id="myModal3" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img04">
+                <div id="caption3"></div>
+              </div>
+            </div>
+            <div class="content-div" style="margin-right: 200px;">
+              <h5>Trailer</h5>
+              <div class="d-flex flex-row">
+                <div class="text-warning mb-1 me-2">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                  <span class="ms-1">
+                    4.5
+                  </span>
+                </div>
+                <span class="text-muted">154 orders</span>
+              </div>
+              <p class="text mb-4 mb-md-0">
+                It is 23x8x7 full stainless inside (upgrade) with 2 ton ac, double fryer, 36" griddle, 2 burner, steam table, prep table with refrigerator under it.
+              </p>
+
+            
+  
+            </div>
+
+            <div class="content2-div" style="display: flex; flex-direction: column;">
+              <div style="display: flex;">
+                <h4 style="margin-right: 5px;">$40,000</h4>
+                <span class="text-danger"><s>$50,000</s></span>
+              </div>
+              <h6 class="text-success">Free shipping</h6>
+              
+              <div class="mt-4">
+                <button class="btn btn-primary shadow-0" type="button"><a href="signin.html" style="color: white;">Buy this</a></button>
+                <a href="wishlist.html" class="btn btn-light border px-2 pt-2 icon-hover"><i class="fas fa-heart fa-lg px-1"></i></a>
+              </div>
+              
+
+              
+            </div>
+          </div>
+
+        
+          
+        </div>
+
+
+        <div class="constructor" style="height: 500; width: auto; border-radius: 10px; outline-style: auto; outline-color: #f1f1f1; margin-bottom: 20px; padding: 20px; box-shadow: 4px 4px 4px rgba(0,0,0,0.2);">
+          <div class="container9" style="display: flex;">
+            <div class="img-div" style=" border-radius: 5px; margin-right: 20px;">
+              <img src="image/IMG-20230717-WA0041(1).jpg" height="200px" width="200px" id="myImg4" alt="Snow" style="max-width:300px; border-radius: 5px;">
+              <!- The Modal --
+              <div id="myModal4" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content1" id="img05">
+                <div id="caption4"></div>
+              </div>
+            </div>
+            <div class="content-div" style="margin-right: 220px;">
+              <h5>Trailer</h5>
+              <div class="d-flex flex-row">
+                <div class="text-warning mb-1 me-2">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                  <span class="ms-1">
+                    4.5
+                  </span>
+                </div>
+                <span class="text-muted">154 orders</span>
+              </div>
+              <p class="text mb-4 mb-md-0">
+                <ul>
+                  <li>Braked AL-O axle</li>
+                  <li>Overrun brake with automatic and parking</li>
+                  <li>V-shaped galvanized drawbar</li>
+                  <li>Internal dimension: 4800x2100x2600mm</li>
+                  <li>External dimensions: 6300x2100x2600mm</li>
+                </ul>
+              </p>
+
+            
+  
+            </div>
+
+            <div class="content2-div" style="display: flex; flex-direction: column;">
+              <div style="display: flex;">
+                <h4 style="margin-right: 5px;">$40,000</h4>
+                <span class="text-danger"><s>$50,000</s></span>
+              </div>
+              <h6 class="text-success">Free shipping</h6>
+              
+              <div class="mt-4">
+                <button class="btn btn-primary shadow-0" type="button"><a href="signin.html" style="color: white;">Buy this</a></button>
+                <a href="wishlist.html" class="btn btn-light border px-2 pt-2 icon-hover"><i class="fas fa-heart fa-lg px-1"></i></a>
+              </div>
+              
+
+              
+            </div>
+          </div>
+
+        
+          
+        </div> -->
+
+        
+
+        
+        <hr />
+
+        <!-- Pagination -->
+        <nav aria-label="Page navigation example" class="d-flex justify-content-center mt-3">
+          <ul class="pagination">
+            <li class="page-item disabled">
+              <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+            <li class="page-item"><a class="page-link" href="#">5</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <!-- Pagination -->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Footer -->
+<footer class="text-center text-lg-start text-muted bg-dark mt-3">
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start pt-4 pb-4">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-12 col-lg-3 col-sm-12 mb-2">
+          <!-- Content -->
+          <a href="#" target="_self" class="text-white h2">
+            <!-- FOOD TRAILER -->
+            <img src="CAGE TRUCKINGS LOGO.png" alt="" height="125px" width="125px" srcset="">
+          </a>
+          <p class="mt-1 text-white">
+            © 2023 Copyright: <a href="#" class="text-white">cagetrucking.com</a> 
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-6 col-sm-4 col-lg-2">
+          <!-- Links -->
+          <h6 class="text-uppercase text-white fw-bold mb-2">
+            Store
+          </h6>
+          <ul class="list-unstyled mb-4">
+            <li><a class="text-white-50" href="template/About branding studio HTML Template Live Demo.html">About us</a></li>
+            <li><a class="text-white-50" href="#">Find store</a></li>
+            <li><a class="text-white-50" href="#">Categories</a></li>
+            <li><a class="text-white-50" href="#">Blogs</a></li>
+          </ul>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-6 col-sm-4 col-lg-2">
+          <!-- Links -->
+          <h6 class="text-uppercase text-white fw-bold mb-2">
+            Information
+          </h6>
+          <ul class="list-unstyled mb-4">
+            <li><a class="text-white-50" href="#">Help center</a></li>
+            <li><a class="text-white-50" href="#">Money refund</a></li>
+            <li><a class="text-white-50" href="#">Shipping info</a></li>
+            <li><a class="text-white-50" href="#">Refunds</a></li>
+          </ul>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-6 col-sm-4 col-lg-2">
+          <!-- Links -->
+          <h6 class="text-uppercase text-white fw-bold mb-2">
+            Support
+          </h6>
+          <ul class="list-unstyled mb-4">
+            <li><a class="text-white-50" href="#">Help center</a></li>
+            <li><a class="text-white-50" href="#">Documents</a></li>
+            <li><a class="text-white-50" href="#">Account restore</a></li>
+            <li><a class="text-white-50" href="cart.html">My orders</a></li>
+          </ul>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-12 col-sm-12 col-lg-3">
+          <!-- Links -->
+          <h6 class="text-uppercase text-white fw-bold mb-2">Newsletter</h6>
+          <p class="text-white">Stay in touch with latest updates about our products and offers</p>
+          <div class="input-group mb-3">
+            <input type="email" class="form-control border" placeholder="Email" aria-label="Email" aria-describedby="button-addon2" />
+            <button class="btn btn-light border shadow-0" type="button" id="button-addon2" data-mdb-ripple-color="dark">
+              Join
+            </button>
+          </div>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <div class="">
+    <div class="container">
+      <div class="d-flex justify-content-between py-4 border-top">
+        <!--- payment --->
+        <div>
+          <i class="fab fa-lg fa-cc-visa text-white"></i>
+          <i class="fab fa-lg fa-cc-amex text-white"></i>
+          <i class="fab fa-lg fa-cc-mastercard text-white"></i>
+          <i class="fab fa-lg fa-cc-paypal text-white"></i>
+        </div>
+        <!--- payment --->
+
+        <!--- language selector --->
+        <div class="dropdown dropup">
+          <a class="dropdown-toggle text-white" href="#" id="Dropdown" role="button" data-mdb-toggle="dropdown" aria-expanded="false"> <i class="flag-united-kingdom flag m-0 me-1"></i>English </a>
+
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="Dropdown">
+            <li>
+              <a class="dropdown-item" href="#"><i class="flag-united-kingdom flag"></i>English <i class="fa fa-check text-success ms-2"></i></a>
+            </li>
+            <li><hr class="dropdown-divider" /></li>
+            <li>
+              <a class="dropdown-item" href="#"><i class="flag-poland flag"></i>Polski</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"><i class="flag-china flag"></i>中文</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"><i class="flag-japan flag"></i>日本語</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"><i class="flag-germany flag"></i>Deutsch</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"><i class="flag-france flag"></i>Français</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"><i class="flag-spain flag"></i>Español</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"><i class="flag-russia flag"></i>Русский</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#"><i class="flag-portugal flag"></i>Português</a>
+            </li>
+          </ul>
+        </div>
+        <!--- language selector --->
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- Footer -->
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+   <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
+
